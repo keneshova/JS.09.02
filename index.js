@@ -71,5 +71,16 @@ for (let i = 0 ; i <= names.length; i++){
 
 for(i = names.length -1; i >= 0; i--){
   console.log("my names is " + names[i]);
- 
 }
+
+for( i = 0; i < names.length; i++){
+  console.log(names[i].length);
+}
+
+//выводит длинну всех имен в мвссиве
+
+let result = 0;
+for(let i = 0; i < names.length; i++){
+  result += names[i];
+}
+console.log(result.length);
