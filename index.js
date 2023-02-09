@@ -39,4 +39,37 @@ function countup(d,t){
 countup(5, 10);
 countup(-10, 10);
 
+//countdown
+function countdown(a, b){
+  let result = a;
+  while ( result >= b){
+    console.log(result);
+    result--;
 
+  }
+}
+countdown(10, 5);
+countdown(10, -10);
+
+
+function count(a, b){
+  if (a < b){
+    countup(a, b);
+  }
+  else {
+    countdown(a, b);
+  }
+  console.log(count);
+}
+count(5, 10);
+
+let names = [ "Aidai", "Bakyt", "Joldosh" ];
+for (let i = 0 ; i <= names.length; i++){
+  console.log("my name is " + names[i]);
+}
+
+
+for(i = names.length -1; i >= 0; i--){
+  console.log("my names is " + names[i]);
+ 
+}
